@@ -12,7 +12,7 @@
               {:main {:source-paths ["src"]
                       :compiler {:main gasoflife.core
                                  :optimizations :advanced
-                                 :output-to "export/Code.gs"
+                                 :output-to "Code.js"
                                  :output-dir "target"
                                  :pretty-print false
                                  :externs ["resources/gas.ext.js"]
